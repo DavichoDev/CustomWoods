@@ -6,6 +6,7 @@ import { PortafolioComponent } from './components/portafolio/portafolio.componen
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { IdeaComponent } from './idea/idea.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { FooterComponent } from './components/footer/footer.component';
     AboutComponent,
     ContactComponent,
     FooterComponent,
+    IdeaComponent,
   ],
   imports: [CommonModule],
 })

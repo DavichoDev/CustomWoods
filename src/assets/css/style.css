@@ -25,7 +25,7 @@ body {
 	margin: 0px;
 	font-family: "Raleway", Sans-serif;
 	--def: #FFFFFF; 	
-	--inv: #000;
+	--inv: #808080;
 }
 
 h1,
@@ -229,7 +229,7 @@ section {
 
 .btnFrom:hover:after {
 	background: var(--inv);
-	transition-delay: .35s;
+	transition-delay: .55s;
 }
 
 /* From Top */
@@ -258,10 +258,7 @@ section {
 	height: 100%;
 }
 
-
 /* Boton IDEA */
-
-
 
 /* .contenedor-botonIdea button {
     font-size: 18px;
@@ -456,8 +453,8 @@ figure.effect-bubba {
 }
 /* Opacidad */
 figure.effect-bubba img {
-	-webkit-transition: opacity 0.35s;
-	transition: opacity 0.35s;
+	-webkit-transition: opacity 0.55s;
+	transition: opacity 0.55s;
 }
 
 figure.effect-bubba:hover img {
@@ -474,8 +471,8 @@ figure.effect-bubba figcaption::after {
 	left: 30px;
 	content: '';
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transition: opacity 0.55s, -webkit-transform 0.55s;
+	transition: opacity 0.55s, transform 0.55s;
 }
 
 figure.effect-bubba figcaption::before {
@@ -500,8 +497,8 @@ figure.effect-bubba h2 {
     padding-top: 30%;
     opacity: 0;
     /* Transition */
-	-webkit-transition: -webkit-transform 0.35s;
-	transition: transform 0.35s;
+	-webkit-transition: -webkit-transform 0.55s;
+	transition: transform 0.55s;
 	-webkit-transform: translate3d(0,-20px,0);
 	transform: translate3d(0,-20px,0);
 }
@@ -512,8 +509,8 @@ figure.effect-bubba p {
     font-weight: 500;
 	padding: 20px 2.5em;
 	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transition: opacity 0.55s, -webkit-transform 0.55s;
+	transition: opacity 0.55s, transform 0.55s;
 	-webkit-transform: translate3d(0,20px,0);
 	transform: translate3d(0,20px,0);
 }
