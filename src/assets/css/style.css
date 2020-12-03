@@ -75,7 +75,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #a7c44c;
+	background: #CD853F;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	border: 0;
@@ -91,6 +91,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline-offset: none;
 }
 /* Navigation */
+
+.navbar {
+	overflow: hidden;
+}
+
 #menu {
 	padding: 20px;
 	transition: all 0.8s;
@@ -108,7 +113,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
-	color: #a7c44c;
+	color: #fff;
 	font-weight: 400;
 	font-size: 15px;
 	padding: 5px 0;
@@ -117,7 +122,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin: 10px 15px 0 15px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #eee;
+	color: #CD853F;
+	font-weight: 800;
+	text-decoration: underline;
 }
 .on {
 	background-color: #363636 !important;
@@ -132,8 +139,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	border-radius: 0;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #a7c44c;
-	border-color: #a7c44c;
+	background-color: #CD853F;
+	border-color: #CD853F;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
 	background-color: #FFF;
@@ -147,8 +154,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .btn-custom {
 	text-transform: uppercase;
 	color: #fff;
-	text-shadow: 0 0 3px #859c3c;
-	background-color: #a7c44c;
+	text-shadow: 0 0 3px #CD853F;/* CD853F */
+	background-color: #A0522D;
 	border: 0;
 	padding: 14px 20px;
 	margin: 0;
@@ -159,7 +166,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: rgba(255,255,255,0.8);
-	background-color: #94ae44;
+	background-color: #CD853F;
 }
 /* Header Section */
 .intro {
@@ -174,7 +181,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-o-background-size: cover;
 }
 .intro .overlay {
-	background: rgba(0,0,0,0.40);
+	background: rgba(0,0,0,0.45);
 }
 .intro h1 {
 	color: #fff;
@@ -185,7 +192,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	letter-spacing: -1px;
 }
 .intro span {
-	color: #a7c44c;
+	color: #CD853F;
 	font-weight: 600;
 }
 .intro p {
@@ -216,7 +223,7 @@ header .intro-text {
 #about img {
 	display: inline-block;
 	border-radius: 100px 0 100px 0;
-	box-shadow: -15px 0 #a7c44c;
+	box-shadow: -15px 0 #CD853F;
 }
 #about p {
 	line-height: 24px;
@@ -232,7 +239,7 @@ header .intro-text {
 #services img {
 	width: 300px;
 	border-radius: 75px 0 75px 0;
-	box-shadow: 15px 0 #a7c44c;
+	box-shadow: 15px 0 #CD853F;
 }
 #services h3 {
 	padding: 10px 0;
@@ -255,21 +262,21 @@ ol.type li {
 	margin-left: 20px;
 }
 ol.type li a {
-	color: #a7c44c;
+	color: #CD853F;
 	font-weight: 400;
 	font-size: 15px;
 	padding: 10px 20px;
-	border: 2px solid #a7c44c;
+	border: 2px solid #CD853F;
 	border-radius: 10px 0 10px 0;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
 }
 ol.type li a.active {
-	background: #a7c44c;
+	background: #CD853F;
 	color: #fff;
 }
 ol.type li a:hover {
-	background: #a7c44c;
+	background: #CD853F;
 	color: #fff;
 }
 .isotope-item {
@@ -347,7 +354,7 @@ ol.type li a:hover {
 /* Team Section */
 #team {
 	color: #fff;
-	background: #a7c44c url(../img/team-bg.jpg) center top no-repeat;
+	background: #CD853F url(../img/team-bg.jpg) center top no-repeat;
 	background-size: cover;
 }
 #team .overlay {
@@ -458,6 +465,7 @@ color: #777;
 #footer {
 	background: #333;
 	padding: 50px 0 20px 0;
+	font-size: 30px;
 }
 #footer .social {
 	margin-bottom: 50px;
@@ -469,18 +477,18 @@ color: #777;
 #footer .social i.fa {
 	font-size: 26px;
 	padding: 4px;
-	color: #a7c44c;
+	color: #CD853F;
 	transition: all 0.3s;
 }
 #footer .social i.fa:hover {
 	color: #eee;
 }
 #footer p {
-	font-size: 15px;
+	font-size: 20px;
 }
 #footer a {
-	color: #999;
+	color: #FFF;
 }
 #footer a:hover {
-	color: #a7c44c;
+	color: #CD853F;
 }
