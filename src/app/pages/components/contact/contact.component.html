@@ -1,50 +1,49 @@
-<section id="contact">
+<!-- Contact Section -->
+<div id="contact">
     <div class="container">
-        <!-- Titulo y desc -->
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <div class="section-title">
-                    <h2>Contactanos</h2>
-                    <p>Si tienes algunas preguntas o necesitas ayuda, por favor contactanos!<br>¡Hacemos y diseñamos los mejores muebles para satisfacerte!</p>
-                </div>
-            </div>
+      <div class="section-title text-center">
+        <h2>CONTACTANOS</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Información de contacto</h3>
+        <div class="contact-item"> <span>Dirección</span>
+          <p>#123 Ajuscto<br>
+            Ciudad de México, México</p>
         </div>
-        <!-- Formulario de contacto -->
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <!-- Form -->
-                <form name="sentMessage" id="contactForm" novalidate="">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Tu nombre *" id="name" required="" data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Tu correo *" id="email" required="" data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <textarea class="form-control" placeholder="Tu mensaje *" id="message" required="" data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <div id="success"></div>
-                            <button type="submit" class="btn">Enviar mensaje</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
+        <div class="contact-item"> <span>Correo</span>
+          <p>contacto@customwoods.com</p>
         </div>
+        <div class="contact-item"> <span>Teléfono</span>
+          <p>55 44 32 09 88</p>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <h3>Déjanos un mensaje</h3>
+        <form name="sentMessage" id="contactForm" novalidate>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" id="name" class="form-control" placeholder="Nombre" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="email" id="email" class="form-control" placeholder="Correo" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensaje" required></textarea>
+            <p class="help-block text-danger"></p>
+          </div>
+          <div id="success"></div>
+          <button type="submit" class="btn btn-custom btn-lg">Enviar Mensaje</button>
+        </form>
+      </div>
     </div>
-</section>
+  </div>
+  
