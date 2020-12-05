@@ -13,12 +13,13 @@
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+}
 
 body {
   font-family: "Poppins-Regular";
   font-size: 15px;
-  color: #666;
+  color: #FFF;
   margin: 0; 
 }
 
@@ -66,7 +67,7 @@ body {
   background-size: cover; }
 
 .wrapper {
-  max-width: 1400px;
+  max-width: 1300px;
   height: 100vh;
   margin: auto;
   display: flex;
