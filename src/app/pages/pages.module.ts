@@ -7,6 +7,7 @@ import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { IdeaComponent } from './idea/idea.component';
+import { ProductsComponent } from './components/products/products.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { IdeaComponent } from './idea/idea.component';
     ContactComponent,
     FooterComponent,
     IdeaComponent,
+    ProductsComponent,
   ],
   imports: [CommonModule],
 })
