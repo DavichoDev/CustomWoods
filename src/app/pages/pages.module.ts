@@ -8,6 +8,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { IdeaComponent } from './idea/idea.component';
 import { ProductsComponent } from './components/products/products.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,9 @@ import { ProductsComponent } from './components/products/products.component';
     IdeaComponent,
     ProductsComponent,
   ],
-  imports: [CommonModule],
+  imports: [
+    CommonModule,
+    RouterModule
+  ],
 })
 export class PagesModule {}
