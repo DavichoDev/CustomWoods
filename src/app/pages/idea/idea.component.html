@@ -1,182 +1,154 @@
-<div class="wrapper">
-    <div class="image-holder">
-        <img src="assets/form-resources/images/form-wizard.png" alt="">
-    </div>
-    <form action="">
-        <div id="wizard">
-            <!-- SECTION 1 -->
-            <h4></h4>
-            <section>
-                <div class="form-row form-group">
-                    <div class="form-holder">
-                        <label for="">
-                        First Name *
-                        </label>
-                        <input type="text" class="form-control">
-                    </div>
-                    <div class="form-holder">
-                        <label for="">
-                        Last Name *
-                        </label>
-                        <input type="text" class="form-control">
-                    </div>
-                </div>	
-                <div class="form-row">
-                    <label for="">
-                        Company Name
-                    </label>
-                    <input type="text" class="form-control">
-                </div>	
-                <div class="form-row">
-                    <label for="">
-                        Country *
-                    </label>
-                    <div class="form-holder">
-                        <select name="" id="" class="form-control">
-                            <option value="viet nam" class="option">Viet Nam</option>
-                            <option value="united states" class="option">United States</option>
-                            <option value="united kingdom" class="option">United Kingdom</option>
-                        </select>
-                        <i class="zmdi zmdi-caret-down"></i>
-                    </div>
-                </div>	
-                <div class="form-row">
-                    <label for="">
-                        Address *
-                    </label>
-                    <input type="text" class="form-control" placeholder="Street address" style="margin-bottom: 20px">
-                    <input type="text" class="form-control" placeholder="Apartment, suite, unit etc. (optional)">
-                </div>	
-                <div class="form-row">
-                    <label for="">
-                        Town / City *
-                    </label>
-                    <input type="text" class="form-control">
-                </div>
-            </section>
-            
-            <!-- SECTION 2 -->
-            <h4></h4>
-            <section>
-                <div class="form-row">
-                    <label for="">
-                        County *
-                    </label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-row">
-                    <label for="">
-                        Postcode / Zip *
-                    </label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-row form-group">
-                    <div class="form-holder">
-                        <label for="">
-                        Phone *
-                        </label>
-                        <input type="text" class="form-control">
-                    </div>
-                    <div class="form-holder">
-                        <label for="">
-                        Email Address *
-                        </label>
-                        <input type="text" class="form-control">
-                    </div>
-                </div>	
-                <div class="form-row" style="margin-bottom: 18px">
-                    <label for="">
-                        Order Notes
-                    </label>
-                    <textarea name="" id="" class="form-control" placeholder="Note about your order, eg. special notes fordelivery." style="height: 149px"></textarea>
-                </div>
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox"> Create an account?
-                        <span class="checkmark"></span>
-                    </label>
-                </div>
-            </section>
-
-            <!-- SECTION 3 -->
-            <h4></h4>
-            <section>
-                <div class="product">
-                    <div class="item">
-                        <div class="left">
-                            <a href="#" class="thumb">
-                                <img src="assets/form-resources/images/item-1.png" alt="">
-                            </a>
-                            <div class="purchase">
-                                <h6>
-                                    <a href="#">Low Table/Stool</a>
-                                </h6>
-                                <span>x4</span>
-                            </div>
-                        </div>
-                        <span class="price">$29</span>
-                    </div>
-                    <div class="item">
-                        <div class="left">
-                            <a href="#" class="thumb">
-                                <img src="assets/form-resources/images/item-2.png" alt="">
-                            </a>
-                            <div class="purchase">
-                                <h6>
-                                    <a href="#">Set of 3 Porcelain</a>
-                                </h6>
-                                <span>x2</span>
-                            </div>
-                        </div>
-                        <span class="price">$124</span>
-                    </div>
-                </div>
-                <div class="checkout">
-                    <div class="subtotal">
-                        <span class="heading">Subtotal</span>
-                        <span>$364</span>
-                    </div>
-                    <p class="shipping">
-                        <span class="heading">Shipping</span>
-                    there are no shipping methods available. please double check your address, or contact us if you need any help.
-                    </p>
-                    <div class="total">
-                        <span class="heading">Subtotal</span>
-                        <span class="total-price">$364</span>
-                    </div>
-                </div>
-            </section>
-
-            <!-- SECTION 4 -->
-            <h4></h4>
-            <section>
-                <div class="checkbox-circle">
-                    <label class="active">
-                        <input type="radio" name="billing method" value="Direct bank transfer" checked>Direct bank transfer>
-                        <span class="checkmark"></span>
-                        <div class="tooltip">
-                            Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.
-                        </div>
-                    </label>
-                    <label>
-                        <input type="radio" name="billing method" value="Check payments">Check payments
-                        <span class="checkmark"></span>
-                        <div class="tooltip">
-                            Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.
-                        </div>
-                    </label>
-                    <label>
-                        <input type="radio" name="billing method" value="Cash on delivery">Cash on delivery
-                        <span class="checkmark"></span>
-                        <div class="tooltip">
-                            Pay with cash upon delivery.
-                        </div>
-                    </label>
-                </div>
-            </section>
+<nav class="navbar navbar-default">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll imagen-cw" href="#page-top"><img src="assets/img/CWLogo.png" alt="Treviso theme logo"></a>
         </div>
-    </form>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">RESEGRESAR AL INICIO</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<!-- Form -->
+<div class="container">
+    	<div class="formulario row">
+			<div class="col-md-12">
+				<div class="panel panel-login">
+					<div class="panel-heading">
+						<div class="row">
+							<div class="titulo col-xs">
+								<h3>Formulario de Ideas</h3>
+							</div>
+						</div>
+						<hr>
+					</div>
+					<div class="panel-body">
+                        <form id="login-form" action="" method="post" role="form" style="display: block;">
+                            <div class="row">
+                                <div class="titulo-seccion">
+                                    <p>Contacto</p>
+                                </div>
+                                <div class="col-lg-6">                                    
+                                    <p class="etiqueta-form">Nombre</p>
+                                    <div class="form-group">
+                                        <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Nombre" value="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">                                    
+                                    <p class="etiqueta-form">Correo electronico</p>
+                                    <div class="form-group">
+                                        <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Correo" value="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="titulo-seccion">
+                                    <p>Haz tu idea realidad</p>
+                                </div>
+                                <div class="referencia col-lg-6 col-xs-12" style="text-align: center;">                                    
+                                    <p class="etiqueta-form">¿Tienes alguna referencia? Envianos tu propia imagen</p>
+                                </div>
+                                <div class="referencia col-lg-6 col-xs-12">                                    
+                                    <input class="input-file" type="file" id="exampleInputFile">
+                                </div>
+                            </div>
+
+                            <div class="row cuestionario">
+                                
+                                <div class="titulo-seccion">
+                                    <p>Cuentanos sobre tu proyecto</p>
+                                </div>
+                                
+                                <div class="col-xs-6">
+                                    <p class="etiqueta-form">¿Donde se ubicará tu mueble?</p>
+                                    
+                                    <div class="check-box-content">
+                                        <input class="checkbox-tools" type="radio" name="tools" id="tool-1" checked>
+                                        <label class="for-checkbox-tools" for="tool-1">
+                                            <i class='uil uil-line-alt'></i>
+                                            En mi Sala
+                                        </label><!--
+                                        --><input class="checkbox-tools" type="radio" name="tools" id="tool-2">
+                                        <label class="for-checkbox-tools" for="tool-2">
+                                            <i class='uil uil-vector-square'></i>
+                                            En mi Baño
+                                        </label><!--
+                                        --><input class="checkbox-tools" type="radio" name="tools" id="tool-3">
+                                        <label class="for-checkbox-tools" for="tool-3">
+                                            <i class='uil uil-ruler'></i>
+                                            En mi Cuarto
+                                        </label><!--
+                                        --><input class="checkbox-tools" type="radio" name="tools" id="tool-4">
+                                        <label class="for-checkbox-tools" for="tool-4">
+                                            <i class='uil uil-crop-alt'></i>
+                                            No importa
+                                        </label><!--
+                                        --><input class="checkbox-tools" type="radio" name="tools" id="tool-5">
+                                    </div>
+                                </div>
+
+                                <div class="col-xs-6">
+                                    <p class="etiqueta-form">¿Donde se ubicará tu mueble?</p>
+                                    
+                                    <div class="check-box-content">
+                                        <input class="checkbox-tools" type="radio" name="tools2" id="tool-6" checked>
+                                        <label class="for-checkbox-tools" for="tool-6">
+                                            <i class='uil uil-line-alt'></i>
+                                            Sala
+                                        </label><!--
+                                        --><input class="checkbox-tools" type="radio" name="tools2" id="tool-7">
+                                        <label class="for-checkbox-tools" for="tool-7">
+                                            <i class='uil uil-vector-square'></i>
+                                            Baño
+                                        </label><!--
+                                        --><input class="checkbox-tools" type="radio" name="tools2" id="tool-8">
+                                        <label class="for-checkbox-tools" for="tool-8">
+                                            <i class='uil uil-ruler'></i>
+                                            Cocina
+                                        </label><!--
+                                        --><input class="checkbox-tools" type="radio" name="tools2" id="tool-9">
+                                        <label class="for-checkbox-tools" for="tool-9">
+                                            <i class='uil uil-crop-alt'></i>
+                                            Cuarto
+                                        </label><!--
+                                        --><input class="checkbox-tools" type="radio" name="tools2" id="tool-10">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                
+                                <div class="titulo-seccion">
+                                    <p>Específicaciones</p>
+                                </div>
+
+                                <div class="cuestionario">
+                                    <p class="etiqueta-form">¿De qué color es tu mueble?</p>
+                                    <input type="color">
+                                </div>
+
+                            </div>
+                        </form>
+					</div>
+				</div>
+			</div>
+		</div>
 </div>
-
-
-
