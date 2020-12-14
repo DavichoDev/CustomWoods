@@ -48,7 +48,7 @@ function main() {
         $container.isotope({
             filter: '*',
             animationOptions: {
-                duration: 750,
+                duration: 1000,
                 easing: 'linear',
                 queue: false
             }
@@ -56,8 +56,10 @@ function main() {
         $('.cat a').click(function() {
             $('.cat .active').removeClass('active');
             $(this).addClass('active');
+            
             var selector = $(this).attr('data-filter');
-            $container.isotope({
+
+            $('.portfolio-items').isotope({
                 filter: selector,
                 animationOptions: {
                     duration: 750,

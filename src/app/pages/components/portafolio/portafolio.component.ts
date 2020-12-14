@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PortafolioService } from 'src/app/services/portafolio.service';
+import { delay } from 'rxjs/operators';
 
 @Component({
   selector: 'app-portafolio',
@@ -7,9 +9,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortafolioComponent implements OnInit {
 
-  constructor() { }
+  portafolios = []; // Variable de portafolios
+  public cargando: boolean = true;
+
+  constructor(private portafolioService: PortafolioService) { }
 
   ngOnInit(): void {
+    this.getPortafolio();
   }
+
+
+  getPortafolio () { // Cargar Valores
+    this.portafolioService.getPortafolio().pipe(  )
+    .subscribe( (response: any) => {
+      this.portafolios = response.portafolios;
+      this.cargando = false;
+    });
+  }
+
 
 }

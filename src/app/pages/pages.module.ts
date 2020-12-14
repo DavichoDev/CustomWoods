@@ -9,6 +9,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { IdeaComponent } from './idea/idea.component';
 import { ProductsComponent } from './components/products/products.component';
 import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     RouterModule,
+    HttpClientModule
   ],
 })
 export class PagesModule {}
