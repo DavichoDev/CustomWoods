@@ -8,10 +8,11 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about" class="page-scroll">A cerca de</a></li>
-          <li><a href="#services" class="page-scroll">Servicios</a></li>
-          <li><a href="#portfolio" class="page-scroll">Proyectos</a></li>
-          <li><a href="#contact" class="page-scroll">Contacto</a></li>
+          <li><a (click)="goToHome()">Inicio</a></li>
+          <li><a (click)="goToAbout()">A cerca de</a></li>
+          <li><a (click)="goToPortafolio()">Servicios y Portafolio</a></li>
+          <li><a (click)="goToProducts()">Productos</a></li>
+          <li><a (click)="goToContact()">Contacto</a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse --> 

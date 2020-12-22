@@ -6,6 +6,7 @@ body, html {
 	font-weight: 300;
 	width: 100% !important;
 	height: 100% !important;
+	scroll-behavior: smooth;
 }
 h2 {
 	margin: 0 0 20px 0;
@@ -254,7 +255,7 @@ header .intro-text {
 }
 /* Portfolio Section */
 #portfolio {
-	padding: 120px 0;
+	padding: 50px 0;
 	background: #f6f6f6;
 }
 .categories {
