@@ -528,7 +528,7 @@ color: #777;
 	.producto img {
 		width: 100%;
 	}
-	contenedor-productos{
+	.contenedor-productos{
 		display: none;
 	}
 }
