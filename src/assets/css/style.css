@@ -97,6 +97,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	overflow: hidden;
 }
 
+
 #menu {
 	padding: 20px;
 	transition: all 0.8s;
@@ -499,4 +500,35 @@ color: #777;
 }
 #footer a:hover {
 	color: #CD853F;
+}
+
+@media (max-width: 730px) {
+	ol.type li {
+		display: inline-flex;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.parallaxContact {
+		display:none;
+	}
+}
+
+@media (max-width: 770px) {
+	.img-responsive {
+		display: inline-block;
+	}
+	#services img {
+		width: 100%;
+		border-radius: 75px 0 75px 0;
+		box-shadow: 15px 0 #CD853F;
+	}
+	.producto img {
+		width: 100%;
+	}
+	contenedor-productos{
+		display: none;
+	}
 }
