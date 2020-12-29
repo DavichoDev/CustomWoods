@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { EmailService } from '../../../services/email.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-contact',
@@ -32,7 +33,13 @@ export class ContactComponent implements OnInit {
     let jsonForm = this.firstFormGroup.value;
     
     this.emailService.enviarMensaje(jsonForm).subscribe();
-    
+
+    Swal.fire({
+      icon: 'success',
+      title: 'Mensaje enviado',
+      text: 'Tu mensaje fue enviado exitosamente'
+    });
+
     this.firstFormGroup.reset();
   }
 
