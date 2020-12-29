@@ -22,7 +22,7 @@ export class ContactComponent implements OnInit {
 
   crearFormulario() {
     this.firstFormGroup = this.formBuilder.group({
-      nombre: ['', [Validators.required, Validators.pattern(`^[a-zA-Z]*$`)]],
+      nombre: ['', Validators.required],
       correo: ['', [Validators.required, Validators.email]],
       mensaje: ['', Validators.required],
     });
