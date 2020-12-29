@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { EmailService } from '../../../services/email.service';
 
 @Component({
   selector: 'app-contact',
@@ -10,7 +11,7 @@ export class ContactComponent implements OnInit {
 
   public firstFormGroup: FormGroup;
 
-  constructor(private formBuilder: FormBuilder) { }
+  constructor(private formBuilder: FormBuilder, private emailService: EmailService) { }
 
   ngOnInit(): void {
 
@@ -26,9 +27,13 @@ export class ContactComponent implements OnInit {
     });
   }
 
-  enviarMensaje() {
-    console.log( this.firstFormGroup.value );
-    this.firstFormGroup.reset( this.firstFormGroup.value );
+  async enviarMensaje() {
+    
+    let jsonForm = this.firstFormGroup.value;
+    
+    this.emailService.enviarMensaje(jsonForm).subscribe();
+    
+    this.firstFormGroup.reset();
   }
 
 }
